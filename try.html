@@ -1,0 +1,8 @@
+<!doctype html>
+<meta charset="utf-8">
+<script src="config.js"></script>
+<script>
+  // Redirect to backend password page using config.js
+  var target = (window.NUVYO_BACKEND_URL || "/") + "/login";
+  window.location.replace(target);
+</script>
