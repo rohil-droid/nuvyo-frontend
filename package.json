@@ -1,0 +1,24 @@
+{
+  "name": "nuvyo-frontend-ready",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./tailwind.input.css -o ./static/style.css --minify",
+    "postbuild:css": "cp ./static/style.css ./nuvyo-frontend-ready/static/style.css || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohil-droid/nuvyo-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohil-droid/nuvyo-frontend/issues"
+  },
+  "homepage": "https://github.com/rohil-droid/nuvyo-frontend#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.9"
+  }
+}
