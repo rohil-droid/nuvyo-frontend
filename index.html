@@ -8,11 +8,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="static/style.css">
-  <link rel="preload" as="image" href="static/demo.webp" type="image/webp">
+  <link rel="preload" as="image" href="static/demo.gif" type="image/gif">
   <style>
     body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji; }
     .ny-container { max-width: 1100px; }
-    .hero { background: linear-gradient(180deg, #6A5AE0 0%, #6BC2FF 100%); }
+    .hero,
+    .ny-hero { background: linear-gradient(90deg, #6A5AE0 0%, #6BC2FF 100%); }
   </style>
 </head>
 <body class="bg-white text-slate-900">
@@ -21,7 +22,6 @@
     <nav class="mx-auto ny-container px-4 sm:px-6 py-4 flex items-center justify-between">
       <a href="/" class="flex items-center gap-2">
         <img src="static/logo.png" alt="Nuvyo" class="w-10 h-10 rounded-full ring-2 ring-white/10 shadow-ny" />
-        <span class="font-extrabold text-lg">Nuvyo</span>
       </a>
       <div class="hidden md:flex items-center gap-6">
         <a href="/#how" class="text-sm font-medium hover:text-indigo-600">How It Works</a>
@@ -50,7 +50,7 @@
 
     <div>
       <img
-        src="static/demo.webp"
+        src="static/demo.gif"
         alt="Nuvyo product preview"
         width="1100"
         height="700"
@@ -58,7 +58,6 @@
         loading="lazy"
         decoding="async"
       />
-      <p class="text-white/70 text-sm mt-3 text-center">Replace this image with your demo GIF.</p>
     </div>
   </div>
 </section>
